@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=MedievalSharp&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
+
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+
+header {
+    padding: 1vh;
+    background-color: black;
+    text-align: center;
+    box-shadow: 4px 4px 30px rgba(238, 156, 4, 0.3);
+    z-index: 30;
+}
+
+/* .inicio {
+    color: orange;
+   font-family: "Bebas Neue", sans-serif;
+   text-align: center;
+   font-size: 36px;
+   background-image: url('imagens/FotoTDB1.png'); 
+} */
+
+
+
+
+ 

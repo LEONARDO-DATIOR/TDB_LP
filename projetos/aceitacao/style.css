@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Jersey+10&family=Jersey+10+Charted&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
+
+
 * {}
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Jersey+10&family=Jersey+10+Charted&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
 
 body {
     display: flex;
@@ -11,22 +13,59 @@ body {
     align-items: center;
 }
 
+.logo {
+    position: absolute;
+    top: 50px;
+    opacity: 0.25;
+}
+
 .titulo {
     color: white;
-    background-color: brown;
     font-family: "Jersey 10", sans-serif;
     text-align: center;
     font-size: 64px;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.botoes {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sim {
-    background-color: green;
+    background-color: #7AA677;
+    box-shadow: 0 0 10px rgb(21, 255, 0, 0.4)
 }
 
 .nao {
-    background-color: red;
+    background-color: #A67778;
+    box-shadow: 0 0 10px rgba(255, 0, 4, 0.4)
 }
 
 .sim , .nao {
     border-radius: 15px;
+    width: 199px;
+    height: 68px;
+    font-size: 36px;
+    border: none;
 }
+
+.logo:hover {
+    opacity: 1;
+}
+
+.sim:hover {
+    background-color: #4BD544;
+    box-shadow: 0 0 10px#15FF00;
+}
+
+.nao:hover {
+    background-color: #E82326;
+    box-shadow: 0 0 10px #FF0004;
+}
+
+
+

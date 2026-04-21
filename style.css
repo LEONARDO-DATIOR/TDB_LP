@@ -14,19 +14,38 @@ body {
 
 header {
     padding: 1vh;
-    background-color: black;
+    background-color: #0B0B0B;
     text-align: center;
-    box-shadow: 4px 4px 30px rgba(238, 156, 4, 0.3);
+    box-shadow: 0px 4px 0px rgba(238, 156, 4, 0.308);
     z-index: 30;
 }
 
-/* .inicio {
-    color: orange;
-   font-family: "Bebas Neue", sans-serif;
-   text-align: center;
-   font-size: 36px;
-   background-image: url('imagens/FotoTDB1.png'); 
-} */
+.inicio div {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("imagens/FotoTDB1.png"); 
+    background-position: center;
+    background-size: cover;
+}
+
+.turmao-titulo {
+    color: #FF7A00;
+    font-size: 45px;
+    font-weight: 400;
+    text-shadow: 2px 3px 0px #520F04
+}
+
+.turmao-descricao {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif; 
+    color: #FFC38E;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin: 100px;
+}
+
 
 
 

@@ -3,16 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Jersey+10&family=Jersey+10+Charted&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
 
 body {
+    display: flex;
     background-color: black;
-    margin: 500px;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo {
     color: white;
     background-color: brown;
     font-family: "Jersey 10", sans-serif;
-     text-align: center;
-     font-size: 64px;
+    text-align: center;
+    font-size: 64px;
 }
 
 .sim {
@@ -24,7 +28,5 @@ body {
 }
 
 .sim , .nao {
-    margin: 130px;
-    padding: 68px;
     border-radius: 15px;
 }

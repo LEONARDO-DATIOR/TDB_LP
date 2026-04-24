@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=MedievalSharp&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Jersey+10&family=Jersey+10+Charted&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Uloopet+Guides&family=Sriracha&display=swap');
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -17,8 +19,9 @@ header {
     z-index: 30;
 }
 
+/* inicio */
+
 .inicio div {
-    font-family: "Bebas Neue", sans-serif;
     text-align: center;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url("imagens/FotoTDB1.png"); 
@@ -28,6 +31,7 @@ header {
 
 .turmao-titulo {
     color: #FF7A00;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 45px;
     font-weight: 400;
     text-shadow: 2px 3px 0px #520F04
@@ -40,7 +44,62 @@ header {
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 10px;
-    margin: 100px;
+}
+
+/* jogos */
+
+.jogos {
+    color: #FF7A00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogos-titulo {  
+    font-family: "Bebas Neue", sans-serif;  
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 2px 3px 0px #520F04;
+}
+
+ u {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    /* text-shadow: 0px 0px 0px black; */
+
+}
+
+.titulo-jogo {
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.jogo-descricao {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+.jogo {
+    display: flex;
+    border: 1px solid #FF7A00;
+    border-radius: 10px;
+    width: 90%;
+    overflow: hidden;
+    flex-direction: row-reverse;
+}
+
+
+.jogo-texto {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 

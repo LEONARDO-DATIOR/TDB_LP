@@ -55,6 +55,14 @@ header {
     padding-bottom: 10px;
 }
 
+.estrelas {
+    display: flex;
+}
+
+.estrela {
+    height: 1.5em;
+}
+
 /* jogos */
 
 .jogos {
@@ -166,10 +174,3 @@ header {
     flex-direction: column;
     padding: 20px;
 }
-
-
-
-
-
-
- 

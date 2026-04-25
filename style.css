@@ -19,6 +19,23 @@ header {
     z-index: 30;
 }
 
+/* GENERIC */
+.titulos {  
+    color: #FF7A00;
+    font-family: "Bebas Neue", sans-serif;  
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 2px 3px 0px #520F04;
+    padding-top: 30px;
+}
+
+.titulos u {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    /* text-shadow: 0px 0px 0px black; */
+}
+
 /* inicio */
 
 .inicio div {
@@ -66,7 +83,6 @@ header {
 /* jogos */
 
 .jogos {
-    color: #FF7A00;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,20 +91,7 @@ header {
     
 }
 
-.jogos-titulo {  
-    font-family: "Bebas Neue", sans-serif;  
-    font-size: 25px;
-    text-align: center;
-    font-weight: normal;
-    text-shadow: 2px 3px 0px #520F04;
-    padding-top: 30px;
-}
 
- u {
-    text-decoration-thickness: 2px;
-    text-underline-offset: 5px;
-    /* text-shadow: 0px 0px 0px black; */
-}
 
 .titulo-jogo {
     font-weight: normal;
@@ -173,4 +176,65 @@ header {
     justify-content: space-evenly;
     flex-direction: column;
     padding: 20px;
+}
+
+/* MEMES */
+
+.memes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    gap: 2em;
+}
+
+.memes_container {
+    display: grid;
+    grid-template-areas: 
+        "david_vinho david_vinho"
+        "mateus_verao mateus_verao" 
+        "manel_julios manel_ilusao"
+        "manel_julios manel_naruto"
+        "trocacao_franca trocacao_franca"
+        "trocacao_franca trocacao_franca"
+    ;
+    justify-content: center;
+    gap: 0.5em;
+    border: 1px solid #FF7A00;
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px 0;
+    color: white;
+}
+
+
+.memes_container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.memes_container p {
+    display: none;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.memes_container img {
+    width: 100%;
+}
+
+.memes_container div:hover img {
+    opacity: 50%;
+}
+
+.memes_container div:hover p {
+    display: block;
+    overflow-wrap: break-word;
+
 }

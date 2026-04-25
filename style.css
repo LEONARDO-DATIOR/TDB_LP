@@ -23,10 +23,18 @@ header {
 
 .inicio div {
     text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)),
     url("imagens/FotoTDB1.png"); 
     background-position: center;
     background-size: cover;
+    height: 250px;
+}
+
+.inicio-turmao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .turmao-titulo {
@@ -34,7 +42,8 @@ header {
     font-family: "Bebas Neue", sans-serif;
     font-size: 45px;
     font-weight: 400;
-    text-shadow: 2px 3px 0px #520F04
+    text-shadow: 2px 3px 0px #520F04;
+    /* height: 100px; */
 }
 
 .turmao-descricao {
@@ -54,6 +63,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    
 }
 
 .jogos-titulo {  
@@ -62,13 +73,13 @@ header {
     text-align: center;
     font-weight: normal;
     text-shadow: 2px 3px 0px #520F04;
+    padding-top: 30px;
 }
 
  u {
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
     /* text-shadow: 0px 0px 0px black; */
-
 }
 
 .titulo-jogo {
@@ -90,6 +101,59 @@ header {
     border-radius: 10px;
     width: 90%;
     overflow: hidden;
+    /* flex-direction: row-reverse; */
+}
+
+
+.jogo-texto {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+/* jogos reverse */
+
+.jogos {
+    color: #FF7A00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.jogos-titulo {  
+    font-family: "Bebas Neue", sans-serif;  
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 2px 3px 0px #520F04;
+    padding-top: 30px;
+}
+
+ u {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.titulo-jogo {
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.jogo-descricao {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+.jogo-reverse {
     flex-direction: row-reverse;
 }
 
@@ -100,7 +164,9 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    padding: 20px;
 }
+
 
 
 

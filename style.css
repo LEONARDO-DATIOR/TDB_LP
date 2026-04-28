@@ -23,7 +23,7 @@ header {
 .titulos {  
     color: #FF7A00;
     font-family: "Bebas Neue", sans-serif;  
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
     font-weight: normal;
     text-shadow: 2px 3px 0px #520F04;
@@ -33,7 +33,6 @@ header {
 .titulos u {
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
-    /* text-shadow: 0px 0px 0px black; */
 }
 
 /* inicio */
@@ -60,7 +59,6 @@ header {
     font-size: 45px;
     font-weight: 400;
     text-shadow: 2px 3px 0px #520F04;
-    /* height: 100px; */
 }
 
 .turmao-descricao {
@@ -92,10 +90,9 @@ header {
 }
 
 
-
 .titulo-jogo {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 50px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -112,7 +109,6 @@ header {
     border-radius: 10px;
     width: 90%;
     overflow: hidden;
-    /* flex-direction: row-reverse; */
 }
 
 
@@ -122,7 +118,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    /* padding: 10px; */
 }
 
 /* jogos reverse */
@@ -237,4 +232,78 @@ header {
     display: block;
     overflow-wrap: break-word;
 
+}
+
+.section-membros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.membro-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    padding-inline: 1.5em;
+}
+
+
+.membro-titulo {
+    padding-top: 2em;
+    padding-bottom: 30px;
+    color: #FF7A00;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    text-shadow: 2px 3px 0px #520F04;
+} 
+
+
+.membro {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #FF7A00;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px  rgba(255, 123, 0, 0.25);
+    width: 103px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 122.13px;
+}
+
+
+.membro h1 {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+
+.membro h2 {
+    color: #693200;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+
+.membro h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 7px;
+    padding-top: 7px;
+}
+
+
+.linha {
+    margin: 5em;
+    width: 80%;
+    border: 1px solid #FF7A00;
 }

@@ -20,6 +20,7 @@ header {
 }
 
 /* GENERIC */
+
 .titulos {  
     color: #FF7A00;
     font-family: "Bebas Neue", sans-serif;  
@@ -306,4 +307,82 @@ header {
     margin: 5em;
     width: 80%;
     border: 1px solid #FF7A00;
+}
+
+/* Rodapé */
+
+.footer {
+    background-color: #111111;
+    display: flex;
+    justify-content: space-evenly;
+    height: 7em;
+    color: white;
+}
+
+.colaboradores {}
+
+.colaboradores h1 {
+    padding-top: 3em;
+    font-size: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.colaboradores ul {
+    list-style: none;
+    padding-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6px;
+}
+
+.colaboradores li {
+    display: flex;
+    padding-top: 1em;
+    color: #B7B7B7;
+    gap: 2px;
+}
+
+.colaboradores u {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
+}
+
+/* Footer */
+
+.footer-final {
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final hr {
+    flex-basis: 5em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.final h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-top: 2em;
+    font-weight: lighter;
+    font-size: 6px;
+}
+
+.final {
+    justify-content: center;
+    color: #B7B7B7;
+    background-color: #111111;
+    height: 2em;
+    width: 12%;
+}
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    .section.membro {
+        background: red;
+        flex-direction: column;
+    } 
 }

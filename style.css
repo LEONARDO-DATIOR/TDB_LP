@@ -381,8 +381,28 @@ header {
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: center;
+        height: 5em;
+    }
+
+    /* jogo */
+
+    .inicio div {
+        height: 768px;
+    }
+
+    .turmao-titulo {
+        font-size: 80px;
+    }
+
+    .turmao-descricao {
+        font-size: 25px;
+    }
     .section.membro {
         background: red;
         flex-direction: column;
     } 
 }
+

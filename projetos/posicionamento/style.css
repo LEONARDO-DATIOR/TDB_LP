@@ -2,10 +2,20 @@
 
 
 .caixote {
+    justify-content: space-evenly;
     display: flex;
-    width: 40%;
+    width: 30%;
     padding: 1em;
 }
 
 .base_verde {
+
+}
+
+.base {
+    gap: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }

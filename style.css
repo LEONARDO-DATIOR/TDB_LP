@@ -387,10 +387,13 @@ header {
         height: 5em;
     }
 
-    /* jogo */
-
-    .inicio div {
+     .inicio div {
         height: 768px;
+        
+    }
+
+    .titulos {
+        font-size: 75px;
     }
 
     .turmao-titulo {
@@ -400,9 +403,27 @@ header {
     .turmao-descricao {
         font-size: 25px;
     }
-    .section.membro {
+
+    /* jogo */
+
+    .jogo {
+        width: 532px;
+        height: 232px;
+    }
+
+    .titulo-jogo {
+        font-size: 25px;
+    }
+
+    .jogo-descricao {
+        font-size: 13px;
+    }
+
+
+    /* .section.membro {
         background: red;
         flex-direction: column;
-    } 
+    }  */
+
 }
 

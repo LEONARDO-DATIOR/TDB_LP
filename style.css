@@ -419,6 +419,13 @@ header {
         font-size: 13px;
     }
 
+    /* memes */
+
+    .memes {
+        margin: 24%;
+    }
+    
+    /* membros */
 
     /* .section.membro {
         background: red;
